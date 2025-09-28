@@ -4,6 +4,40 @@ Minimal project to blink the green LED on Seed Studio XIAO nRF53840 Sense Plus b
 
 The goal of this project is to have a minimal example using a custom runner script with `adafruit-nrfutil` to flash the board.
 
+## Installation
+
+1. Create a Python virtual environment and install `adafruit-nrfutil`
+
+```sh
+python -m venv .venv
+source .venv/bin/activate
+pip install adafruit-nrfutil
+```
+
+2. Modify the `flash-runner.sh` script to set the correct port where your board is connected:
+
+```sh
+COM_PORT="${NRF_PORT:-/dev/cu.usbmodem1101}"
+```
+
+You can find the port on mac OS with `ls /dev/cu.usb*` when the board is connected. The XIAO nRF52840 Sense Plus is only detected when you double click the reset button on the board.
+
+3. Build and flash the project
+
+Double-click on the reset button to make the board detectable, then run:
+
+```sh
+cargo run
+```
+
+The green LED should blink every second.
+
+4. Test to reflash the project with a different LED.
+
+Blue User LED pin: P0_06
+Red User LED pin: P0_26
+Green User LED pin: P0_30
+
 ## How was the project setup
 
 1. Init embassy project
