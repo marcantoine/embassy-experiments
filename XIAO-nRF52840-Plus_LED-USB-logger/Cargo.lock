@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "XIAO-nRF53840-Plus_LED_blink"
+name = "XIAO-nRF52840-Plus_LED_blink"
 version = "0.1.0"
 dependencies = [
  "cortex-m",

@@ -2,7 +2,7 @@
 
 [package]
 edition = "2021"
-name = "XIAO-nRF53840-Plus_LED_blink"
+name = "XIAO-nRF52840-Plus_LED_blink"
 version = "0.1.0"
 
 [dependencies]
@@ -21,7 +21,7 @@ panic-halt = "1.0.0"
 static_cell = "2.1.1"
 
 [[bin]]
-name = "XIAO-nRF53840-Plus_LED_blink"
+name = "XIAO-nRF52840-Plus_LED_blink"
 test = false
 bench = false
 

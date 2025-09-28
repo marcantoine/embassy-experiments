@@ -41,10 +41,10 @@ async fn main(spawner: Spawner) {
 
     loop {
         let t = temp.read().await;
-        info!("Die temperature: {} °C", t);
         led.set_high();
         Timer::after_millis(9500).await;
         led.set_low();
+        info!("Die temperature: {} °C", t);
         Timer::after_millis(500).await;
     }
 }

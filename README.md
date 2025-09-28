@@ -6,4 +6,4 @@ Experiments with [Rust](https://rust-lang.org/) and [Embassy](https://embassy.de
 
 | Title                                                                  | Description                                                                 | Board                    |
 | ---------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------ |
-| [XIAO-nRF53840-Plus_LED_blink](XIAO-nRF53840-Plus_LED_blink/README.md) | Blink green LED on XIAO nRF53840 Sense Plus. Use adafruit-nrfutil to flash. | XIAO nRF52840 Sense Plus |
+| [XIAO-nRF52840-Plus_LED_blink](XIAO-nRF52840-Plus_LED_blink/README.md) | Blink green LED on XIAO nRF52840 Sense Plus. Use adafruit-nrfutil to flash. | XIAO nRF52840 Sense Plus |

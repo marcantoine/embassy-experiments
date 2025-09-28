@@ -1,6 +1,6 @@
-# Green LED blink on XIAO nRF53840 Sense Plus with Embassy
+# Green LED blink on XIAO nRF52840 Sense Plus with Embassy
 
-Minimal project to blink the green LED on Seed Studio XIAO nRF53840 Sense Plus board using [Embassy](https://embassy.dev/).
+Minimal project to blink the green LED on Seed Studio XIAO nRF52840 Sense Plus board using [Embassy](https://embassy.dev/).
 
 The goal of this project is to have a minimal example using a custom runner script with `adafruit-nrfutil` to flash the board.
 

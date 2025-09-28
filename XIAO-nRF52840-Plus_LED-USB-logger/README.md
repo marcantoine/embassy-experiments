@@ -1,4 +1,4 @@
-# USB logger on XIAO nRF53840 Sense Plus with Embassy
+# USB logger on XIAO nRF52840 Sense Plus with Embassy
 
 Project based on [XIAO-nRF52840-Plus_LED-blink](XIAO-nRF52840-Plus_LED-blink) to log messages over USB serial connection. See [project folder](XIAO-nRF52840-Plus_LED-blink) for basic setup details.
 
